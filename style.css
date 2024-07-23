@@ -36,6 +36,7 @@
 .infinity__form--label {
   text-transform: capitalize;
   margin-right: 1vh;
+  width: 21%;
 }
 
 .infinity__form--input {

@@ -297,7 +297,7 @@ function infinityForm({ endpoint }) {
     			<button type="submit" class="infinity__form--submit-btn">${htmlSpinner} <span>sign up</span></button>
     		</form>
     		<div class="infinity__info">
-    			Emails will be sent by or on behalf of Universal Music Operations Ltd, 4 Pancras Square, London. N1C 4AG, UK. +44 (0)20 3932 8400. You may withdraw your consent at any time. See Privacy Policy at <a href="https://www.rocnation.com/privacy-policy/" target="_blank">https://www.rocnation.com/privacy-policy/</a>
+    			You may withdraw your consent at any time. See Privacy Policy at <a href="https://www.rocnation.com/privacy-policy/" target="_blank">https://www.rocnation.com/privacy-policy/</a>
     		</div>
     </div>
 		`;
