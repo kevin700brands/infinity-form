@@ -6,7 +6,9 @@
 
 #### insert inside <head></head>
 
-`https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form/style.css`
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form/style.css" />
+```
 
 #### before </body>
 
