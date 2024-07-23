@@ -3,7 +3,7 @@
  * @function
  * @param {string} {endpoint} - Google Sheet URL
  * */
-function infinityForm({ endpoint, imgSrc }) {
+function infinityForm({ endpoint, imgSrc, name }) {
   // list of countries
   const countryListAlpha2 = {
     AF: "Afghanistan",
@@ -287,7 +287,7 @@ function infinityForm({ endpoint, imgSrc }) {
     			</div>
     			<div class="infinity__form-group">
     				<input class="infinity__form--checkbox" type="checkbox" name="receive_updates">
-    				<label class="infinity__form--checkbox--label" for="name">I would like to receive SMS and email updates from Infinity Song.</label>
+    				<label class="infinity__form--checkbox--label" for="name">I would like to receive SMS and email updates from ${name}.</label>
     			</div>
     			<div class="infinity__form-group">
     				<input class="infinity__form--checkbox" type="checkbox" name="join_rocnation">
