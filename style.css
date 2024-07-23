@@ -22,6 +22,8 @@
 .infinity__img {
   width: 100%;
   margin-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .infinity__form {
