@@ -263,48 +263,50 @@ function infinityForm({ endpoint }) {
 
   // html form element
   const htmlFormEl = `
-		<button class="infinity__close-btn">x</button>
-		<form class="infinity__form" method="POST">
-			<div class="infinity__form-group">
-				<label class="infinity__form--label" for="name">name:</label>
-				<input required class="infinity__form--input" type="text" name="name">
-			</div>
-			<div class="infinity__form-group">
-				<label class="infinity__form--label" for="email">email:</label>
-				<input required class="infinity__form--input" type="text" name="email">
-			</div>
-			<div class="infinity__form-group">
-				<label class="infinity__form--label" for="mobile">mobile:</label>
-				<input required class="infinity__form--input" type="text" name="mobile">
-			</div>
-			<div class="infinity__form-group">
-				<label class="infinity__form--label" for="country">Country:</label>
-				<select required class="infinity__form--select" name="country">
-					<option value="">Please select country</option>
-				</select>
-			</div>
-			<div class="infinity__form-group">
-				<input class="infinity__form--checkbox" type="checkbox" name="receive_updates">
-				<label class="infinity__form--checkbox--label" for="name">I would like to receive SMS and email updates from Infinity Song.</label>
-			</div>
-			<div class="infinity__form-group">
-				<input class="infinity__form--checkbox" type="checkbox" name="join_rocnation">
-				<label class="infinity__form--checkbox--label" for="name">
-					Join the Roc Nation list to hear more about artists, offers, new music and more.
-				</label>
-			</div>
-			<button type="submit" class="infinity__form--submit-btn">${htmlSpinner} <span>sign up</span></button>
-		</form>
-		<div class="infinity__info">
-			Emails will be sent by or on behalf of Universal Music Operations Ltd, 4 Pancras Square, London. N1C 4AG, UK. +44 (0)20 3932 8400. You may withdraw your consent at any time. See Privacy Policy at <a href="https://www.rocnation.com/privacy-policy/" target="_blank">https://www.rocnation.com/privacy-policy/</a>
-		</div>
+    <div class="infinity__form--container">
+    		<button class="infinity__close-btn">x</button>
+    		<form class="infinity__form" method="POST">
+    			<div class="infinity__form-group">
+    				<label class="infinity__form--label" for="name">name:</label>
+    				<input required class="infinity__form--input" type="text" name="name">
+    			</div>
+    			<div class="infinity__form-group">
+    				<label class="infinity__form--label" for="email">email:</label>
+    				<input required class="infinity__form--input" type="text" name="email">
+    			</div>
+    			<div class="infinity__form-group">
+    				<label class="infinity__form--label" for="mobile">mobile:</label>
+    				<input required class="infinity__form--input" type="text" name="mobile">
+    			</div>
+    			<div class="infinity__form-group">
+    				<label class="infinity__form--label" for="country">Country:</label>
+    				<select required class="infinity__form--select" name="country">
+    					<option value="">Please select country</option>
+    				</select>
+    			</div>
+    			<div class="infinity__form-group">
+    				<input class="infinity__form--checkbox" type="checkbox" name="receive_updates">
+    				<label class="infinity__form--checkbox--label" for="name">I would like to receive SMS and email updates from Infinity Song.</label>
+    			</div>
+    			<div class="infinity__form-group">
+    				<input class="infinity__form--checkbox" type="checkbox" name="join_rocnation">
+    				<label class="infinity__form--checkbox--label" for="name">
+    					Join the Roc Nation list to hear more about artists, offers, new music and more.
+    				</label>
+    			</div>
+    			<button type="submit" class="infinity__form--submit-btn">${htmlSpinner} <span>sign up</span></button>
+    		</form>
+    		<div class="infinity__info">
+    			Emails will be sent by or on behalf of Universal Music Operations Ltd, 4 Pancras Square, London. N1C 4AG, UK. +44 (0)20 3932 8400. You may withdraw your consent at any time. See Privacy Policy at <a href="https://www.rocnation.com/privacy-policy/" target="_blank">https://www.rocnation.com/privacy-policy/</a>
+    		</div>
+    </div>
 		`;
+
+  // insert html to infinity form
+  document.body.insertAdjacentHTML("afterend", htmlFormEl);
 
   // selectors
   const container = document.querySelector(".infinity__form--container");
-  // insert html to infinity form
-  container.insertAdjacentHTML("afterbegin", htmlFormEl);
-
   const closeBtn = document.querySelector(".infinity__close-btn");
   const inputSelect = document.querySelector(".infinity__form--select");
   const infinityForm = document.querySelector(".infinity__form");

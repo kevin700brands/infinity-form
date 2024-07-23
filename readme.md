@@ -18,15 +18,7 @@
 <script src="https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form/index.js"></script>
 ```
 
-2. HTML
-
-```
-<!-- Infinity Song Form -->
-	<div class="infinity__form--container"></div>
-	<!-- End Infinity Song Form -->
-```
-
-3. Instantiate
+2. Instantiate
 
 ```
     infinityForm({
