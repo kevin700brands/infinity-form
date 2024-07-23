@@ -1,7 +1,7 @@
 /**
  * Inifnity form
- * @constructor
- * @param {string} {endpoint} - Sheet URL
+ * @function
+ * @param {string} {endpoint} - Google Sheet URL
  * */
 function infinityForm({ endpoint }) {
   // list of countries
