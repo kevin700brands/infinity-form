@@ -7,7 +7,7 @@
 #### insert inside <head></head>
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form/style.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form@latest/style.css" />
 ```
 
 #### before </body>
@@ -15,7 +15,7 @@
 ```
 <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form@latest/index.js"></script>
 ```
 
 2. Instantiate
