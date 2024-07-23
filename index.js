@@ -3,7 +3,7 @@
  * @function
  * @param {string} {endpoint} - Google Sheet URL
  * */
-function infinityForm({ endpoint }) {
+function infinityForm({ endpoint, imgSrc }) {
   // list of countries
   const countryListAlpha2 = {
     AF: "Afghanistan",
@@ -265,6 +265,7 @@ function infinityForm({ endpoint }) {
   const htmlFormEl = `
     <div class="infinity__form--container">
     		<button class="infinity__close-btn">x</button>
+        <img class="infinity__img" src="${imgSrc}" alt="logo" />
     		<form class="infinity__form" method="POST">
     			<div class="infinity__form-group">
     				<label class="infinity__form--label" for="name">name:</label>

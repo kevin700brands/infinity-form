@@ -19,6 +19,11 @@
   right: 2%;
 }
 
+.infinity__img {
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
 .infinity__form {
   display: flex;
   flex-direction: column;
