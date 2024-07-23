@@ -4,7 +4,9 @@
 
 1. Import the files
 
-#### insert inside head
+#### insert inside <head></head>
+
+`https://cdn.jsdelivr.net/gh/kevin700brands/infinity-form/style.css`
 
 #### before </body>
 
