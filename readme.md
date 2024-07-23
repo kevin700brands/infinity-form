@@ -1,4 +1,4 @@
-# Autoplay Video for Modern Browsers
+# Reusable Infinity Form
 
 ## Example Installation
 
