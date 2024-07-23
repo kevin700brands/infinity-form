@@ -302,7 +302,7 @@ function infinityForm({ endpoint }) {
     </div>
 		`;
 
-  // insert html to infinity form
+  // insert to body
   document.body.insertAdjacentHTML("afterend", htmlFormEl);
 
   // selectors
